@@ -202,11 +202,14 @@ footer h4 {
 }
 #footermenu ul {
     list-style: none;
-    overflow: hidden;
-
+    padding: 5px 0;
+    text-align: center;
+}
+#footermenu ul li {
+    display: inline;
 }
 #footermenu ul li a{
-    margin: 3px 0px;
+    margin: 3px 10px;
     text-decoration: underline;
     font-weight: 400;
 }
@@ -221,7 +224,7 @@ footer h4 {
 
 #adress div {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     margin: 0px 5px;
     vertical-align: top;
 }
