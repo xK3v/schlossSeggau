@@ -235,7 +235,8 @@ footer h4 {
     display: inline-block;
     width: 48%;
     margin: 0px 10px;
-    vertical-align:middle;
+    padding-right: 5px;
+    vertical-align: top;
 }
 #mapss,
 #mapfh {
