@@ -18,6 +18,7 @@ h1 {
     text-align: center;
 }
 
+/*Header Bild + Text */
 header {
     font-size: 700%;
     text-align: center;
@@ -35,6 +36,7 @@ header {
     text-decoration: none;
 }
 
+/*Schwarz-transparenter Website Body */
 #websitebody {
     background-color: rgba(0, 0, 0, 0.7);
     max-width: 1340px;
@@ -109,6 +111,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     display: block;
 }
 
+/* Media Query für Menüleiste */
 @media (max-width: 1814px){
     nav a,
     nav .dropdown{
@@ -129,13 +132,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 a {
     color: white;
 }
-
-.active {
-    background-color: rgb(255, 106, 0);
-
-}
-
-
+/* UNKLAR OB BENÖTIGT
 .submenu {
     border: 1px solid black;
     margin: 10px;
@@ -144,6 +141,9 @@ a {
     border-radius: 20px;
     border: solid black;
 }
+*/
+
+/*Hintergrundbild*/
 body {
     background-color: white;
     margin: 10px 10% 10px 10%;
@@ -172,6 +172,7 @@ h2 a {
 h3 {
     margin: 15px -2px;
 }
+/* Event auf Veranstaltugen.html*/
 .event {
     border: 2px solid black;
     background-color: #B66F0C;
@@ -183,19 +184,15 @@ h3 {
 
 #oberschloss_innen {
     float: right;
-    padding-right: 10px;
+    margin-right: 10px;
     width: 50%;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.25s;
 }
 
-#front {
-    width:70%;
-}
-
 #oberschloss_innen:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 #footer_screen {
@@ -204,11 +201,14 @@ h3 {
     max-width: 1340px;
     margin: 10px auto;
 }
+/* AKTUELL NICHT BENÖTIGT
 footer h4 {
     float: left;
     padding-right: 5px;
 }
+*/
 
+/*Menü im Footer*/
 #footermenu {
     padding: 2px;
     padding-left: 5px;
@@ -236,12 +236,15 @@ footer h4 {
     display:none;
 }
 
+/*FH Adresse im Impressum*/
 #adress div {
     display: inline-block;
     width: 40%;
     margin: 0px 5px;
     vertical-align: top;
 }
+
+/*index.html*/
 #home {
     margin-top: 10px;
 }
@@ -252,14 +255,14 @@ footer h4 {
     padding-right: 5px;
     vertical-align: top;
 }
+
+/*Google Maps*/
 #mapss,
 #mapfh {
     border: none;
 }
 
-
 /*MODAL*/
-
 .modal {
     display: none;
     position: fixed;
