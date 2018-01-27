@@ -53,13 +53,12 @@ nav {
     overflow: hidden;
     background-color: rgb(227, 193, 0); /*Farbe Schloss Seggau Logo */
     width: 100%;
-    font-family: 'Roboto', sans-serif;
-
 }
 
 nav a {
     float: left;
-    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
     color: black;
     text-align: center;
     text-decoration: none;
@@ -170,7 +169,7 @@ body {
 article,
 section {
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     margin: 0px 10px;
 }
 
