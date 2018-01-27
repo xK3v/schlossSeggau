@@ -180,15 +180,6 @@ h2 a {
 h3 {
     margin: 15px -2px;
 }
-/* Event auf Veranstaltugen.html*/
-.event {
-    border: 2px solid black;
-    background-color: #B66F0C;
-    border-radius: 5px;
-    margin: 5px auto;
-    padding: 0px 5px 5px 5px;
-    width: 80%;
-}
 
 .bildfullwidth {
     margin-top: 15px;
