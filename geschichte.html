@@ -14,18 +14,23 @@
         <nav>
             <a href="index.html">Startseite</a>
             
-            <a href="geschichte.html">Geschichte</a>
+            <div class="dropdown"> <!-- Geschichte -->
+                <a class="dropbtn" href="geschichte.html"><span class="active">Geschichte</span> &#9660;</a>
+                
+                <div class="dropdown-content">
+                    <a href="geschichte.html#anfaenge">Anfänge</a>
+                    <a href="geschichte.html#verwuestungen">Verwüstungen</a>
+                    <a href="geschichte.html#umbauten">Umbauten</a>
+                    <a href="geschichte.html#neubau">Neubau</a>
+                </div>
+            </div>
             
             <div class="dropdown"> <!--Architektur-->
-                <!-- button class="dropbtn" -->
-                    <a class="dropbtn" href="geb_architecture.html">Architektur &#9660;</a>
-                <!-- /button -->
+                <a class="dropbtn" href="geb_architecture.html">Architektur &#9660;</a>
+                
                 <div class="dropdown-content">
-                <a href="geb_architecture.html#submenu1">Wirtschaftshof</a>
-                <a href="geb_architecture.html#submenu2">Schloss Polheim</a>
-                <a href="geb_architecture.html#submenu3">Oberschloss</a>
-                <a href="geb_architecture.html#submenu4">Weinkeller</a>
-                <a href="geb_architecture.html#submenu5">Hotel</a>
+                    <a href="geb_architecture.html#lage">Lage</a>
+                    <a href="geb_architecture.html#bauweise">Bauweise</a>
                 </div>
             </div>
             
@@ -35,7 +40,7 @@
         </nav>
             <h1>Geschichte</h1>
                 <article>
-                    <h2>Schloss Seggau</h2>
+                    <h2 id="anfaenge">Anfänge</h2>
                     Wie diverse Steinskulpturen und Werke zeigen, reicht die Geschichte rund um das Schloss Seggau bis in die Zeit der Kelten und Römer zurück. Im 12. Jahrhundert erbauten die Salzburger Erzbischöfe das Oberschloss als Missions- und Verwaltungsbastion zur Kolonialisierung der südlichen Steiermark. Ab 1218 wurde es von den Bischöfen von Seckau erweitert.
                     <br>
                     <br>
@@ -51,15 +56,15 @@
                     Die Seckauer und die Salzburger Burg waren durch eine Mauer getrennt und die Besitzverhältnisse waren kompliziert, da im Gerichtstrakt des Hochschlosses der Amtssitz des Landgerichtes untergebracht war.
                     <br>
                     <br>
-                    <h3>Verwüstungen</h3>
+                    <h2 id="verwuestungen">Verwüstungen</h2>
                     Nach Verwüstungen der Burgen im Ungarnkrieg 1479 durch Artilleriebeschuss wurden sie nicht von den Osmanen während der Türkenkriege belagert. Daraufhin wurden zum besseren Schutz ein Zwinger und Artilleriebasteien errichtet. Dadurch erhielt der Wirtschaftshof den Status einer Vorburg. 1529 verwüsteten die Türken die Stadt Leibnitz, die Seggauer Burg blieb dabei allerdings verschont.
                     <br>
                     <br>
                     Unter dem Salzburger Erzbischof Wolf Dietrich von Raitenau kamen 1595 alle drei Schlösser in den Besitz des Bistums Seckau. Unter Bischof Martin Brenner wurde daraufhin die Trennmauer abgerissen und eine gemeinsame Außenmauer wurde errichtet. Nach mehreren Umbauten unter Bischof Johann Ernst Graf von Thun im 17. Jahrhundert erhielt das Schloss sein heutiges Aussehen. In dieser Zeit entstanden die Arkaden, die Kapelle, die Fürstenzimmer und der bischöfliche Weinkeller.
+                    <br>
                     <img class="bildfullwidth" src="pic/arkaden.jpg" alt="Arkaden mit darunter liegendem Weinkeller">
-                    <br>
-                    <br>
-                    <h3>Umbauten ab 1700</h3>
+                    <div class="bildcaption">Arkaden mit darunter liegendem Weinkeller</div>
+                    <h2 id="umbauten">Umbauten ab 1700</h2>
                     Da 1786 Graz der Hauptsitz der Seckauer Bischöfe geworden war, blieb das Schloss Seggau bis ins 20. Jahrhundert Sommerresidenz der Bischöfe.
                     <br>
                     <br>
@@ -68,15 +73,16 @@
                     <br>
                     In der Zeit von 1816 bis 1830 wurde der alte Turm abgetragen, wobei zahlreiche Grabsteine und Reliefs aus der Römerzeit gefunden und durch Kaspar Harb katalogisiert wurden. Zwischen 1828 und 1932 wurden die Römersteine unter Bischof Roman Zängerle zusammengestellt und an der heutigen Stelle eingemauert.
                     <img class="bildfullwidth" src="pic/steinwerke.jpg" alt="Eingemauerte Steinwerke">
-
                     <br>
+                    <div class="bildcaption">Eingemauerte Steinwerke</div>
                     <br>
                     1956 bis 1967 wurde unter Bischof Dr. Josef Schoiswohl das Wirtschaftsgebäude zu einem Bildungszentrum umgestaltet.
                     <br>
-                    <br>
+                    <h2 id="neubau">Neubau</h2>
                     Zwischen 1999 und 2009 wurde das Schloss um einen Neubau erweitert. Diese Räumlichkeiten sind hauptsächlich Teil des Hotels und werden von Gästen benutzt. Beim Neubau handelt es sich um eine Stahlkonstruktion, die bereits 1994 entworfen wurde und damals als sehr futuristisch galt.
-                    <img class="bildfullwidth" src="pic/neubau.jpg" alt="Neubau">
                     <br>
+                    <img class="bildfullwidth" src="pic/neubau.jpg" alt="Neubau">
+                    <div class="bildcaption">Neubau</div>
                     <br>
                     Der Name des Schlosses in der heutigen Schreibung leitet sich von der obersteirischen Abtei Seckau ab, da „Seggau“ eine alternative Schreibweise zu „Seckau“ ist.
                 </article>

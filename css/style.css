@@ -146,6 +146,10 @@ a {
 }
 */
 
+.active {
+    text-decoration: underline;
+}
+
 /*Hintergrundbild*/
 body {
     background-color: white;
@@ -198,6 +202,10 @@ h3 {
 .drittelbild  {
     width: 32%;
     margin: 0px 2px;
+}
+.bildcaption {
+    text-align: center;
+    font-size: 80%;
 }
 
 #footer_screen {
