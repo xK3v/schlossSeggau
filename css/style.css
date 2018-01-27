@@ -207,6 +207,7 @@ h3 {
 .bildcaption {
     text-align: center;
     font-size: 85%;
+    padding-bottom: 5px;
 }
 
 #footer_screen {
