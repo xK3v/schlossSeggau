@@ -184,6 +184,22 @@ h3 {
     width: 80%;
 }
 
+.bildfullwidth {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.bilderreihe {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.drittelbild  {
+    width: 33%;
+    margin: 0px 2px;
+}
+
 #oberschloss_innen {
     float: right;
     margin-right: 10px;
@@ -233,6 +249,7 @@ footer h4 {
     text-align: center;
     margin: auto;
     display: block;
+    color: white;
 }
 #footer_print {
     display:none;
