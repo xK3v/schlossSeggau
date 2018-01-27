@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Roboto|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Roboto|Ubuntu|Roboto+Slab');
 
 h1,
 h2,
@@ -53,6 +53,8 @@ nav {
     overflow: hidden;
     background-color: rgb(227, 193, 0); /*Farbe Schloss Seggau Logo */
     width: 100%;
+    font-family: 'Ubuntu', serif;
+
 }
 
 nav a {
@@ -158,7 +160,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', serif;
+    font-family: 'Roboto+Slab', serif;
 }
 
 .bold {
