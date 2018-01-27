@@ -196,6 +196,9 @@ h3 {
     width: 32%;
     margin: 0px 2px;
 }
+.halbbild {
+    margin: 0px 10px;
+}
 .bildcaption {
     text-align: center;
     font-size: 85%;
