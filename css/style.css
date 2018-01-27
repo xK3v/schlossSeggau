@@ -26,8 +26,8 @@ header {
     font-size: 700%;
     text-align: center;
     color: white;
-    background-color: rgba(106, 52, 14, 0.55);
-    background-image: url(front.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url(../pic/header.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@ a {
 body {
     background-color: white;
     margin: 10px 10% 10px 10%;
-    background-image: url(bckgrnd1.jpg);
+    background-image: url(../pic/bckgrnd1.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
