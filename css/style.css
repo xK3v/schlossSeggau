@@ -116,14 +116,6 @@ nav a:hover, .dropdown:hover .dropbtn {
     display: block;
 }
 
-/* Media Query für Menüleiste */
-@media (max-width: 1814px){
-    nav a,
-    nav .dropdown{
-        width: 100%;
-    }
-}
-
 
 /*Ende Navigationsleiste*/
 
@@ -254,7 +246,7 @@ footer h4 {
 /*FH Adresse im Impressum*/
 #adress div {
     display: inline-block;
-    width: 40%;
+    width: 47%;
     margin: 0px 5px;
     vertical-align: top;
 }
@@ -275,4 +267,20 @@ footer h4 {
 #mapss,
 #mapfh {
     border: none;
+}
+
+/* Media Query */
+@media (max-width: 1814px){
+    nav a,
+    nav .dropdown{
+        width: 100%;
+    }
+    
+    #adress div {
+        width: 100%;
+    }
+    
+    #home div {
+        width: 100%;
+    }
 }
