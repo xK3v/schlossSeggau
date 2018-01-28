@@ -78,7 +78,6 @@ nav a {
     border: none;
     outline: none;
     background-color: inherit;
-/*    padding: 0px 16px;*/
     color: black;
 }
 
@@ -119,32 +118,15 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 /*Ende Navigationsleiste*/
 
-/* UNKLAR OB BENÖTIGT
-
-.submenu a:hover {
-    background-color: rgb(255, 106, 0);
-    color: black;
-}*/
-
 a {
     color: white;
 }
-/* UNKLAR OB BENÖTIGT
-.submenu {
-    border: 1px solid black;
-    margin: 10px;
-    float: left;
-    background-color: white;
-    border-radius: 20px;
-    border: solid black;
-}
-*/
 
 .active {
     text-decoration: underline;
 }
 
-/*Hintergrundbild*/
+/*Hintergrund*/
 body {
     background-color: white;
     margin: 10px 10% 10px 10%;
@@ -213,12 +195,6 @@ h3 {
     max-width: 1340px;
     margin: 10px auto;
 }
-/* AKTUELL NICHT BENÖTIGT
-footer h4 {
-    float: left;
-    padding-right: 5px;
-}
-*/
 
 /*Menü im Footer*/
 #footermenu {
@@ -256,7 +232,7 @@ footer h4 {
     vertical-align: top;
 }
 
-/*index.html*/
+/*Startseite*/
 #home {
     margin-top: 10px;
 }
