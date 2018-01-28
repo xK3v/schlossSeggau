@@ -202,6 +202,11 @@ h3 {
     padding-bottom: 5px;
 }
 
+.jumptop {
+    text-align: right;
+    margin-right: 10px;
+}
+
 #footer_screen {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.7);
